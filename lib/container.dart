@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+// void main() {
+//   runApp(const MyApp());
+// }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -76,7 +76,7 @@ class FirstScreen extends StatelessWidget {
         // padding: const EdgeInsets.all(10), // ini padding
         margin: const EdgeInsets.all(10), // ini margin
         child: const Text(
-          'Hai',
+          'Haaaaaaai',
           style: const TextStyle(fontSize: 40, color: Colors.white, shadows: [
             Shadow(
                 offset: Offset(4.0, 4.0), blurRadius: 10.0, color: Colors.black)
